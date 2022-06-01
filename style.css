@@ -38,12 +38,18 @@ body{
 #banner{
     padding: 30;
     text-align: center;
+    background-image: url(salon7.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
 }
 .promo-title{
     font-size: 40px;
     font-weight: bold;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 25px;
 }
 .promo-title::before{
     content: "";
@@ -55,17 +61,36 @@ body{
     margin-right: auto;
     transform: translateY(63px);
 }
+.promo-text{
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    background-color: #fdf7f8;
+    width: fit-content;
+    margin: auto;
+}
+
 /*-----teams section-----*/
 #teams{
     padding: 40px 0;
     overflow: auto;
+    background-color: #fdf7f8;
 }
 .teams{
     padding: 8px ;
     padding-bottom: 40px;
     font-size: 17px;
 }
-
+ .teams h3{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    padding: 5px;
+    background-color: #fbd3c5;
+    width: 400px;
+    margin: auto;
+} 
 .teams h4{
     padding : 5px ;
     font-size: 30px;
@@ -80,7 +105,7 @@ body{
     display: block;
     margin-left:  auto;
     margin-right: auto;
-    transform: translateY(50px);
+    transform: translateY(45px);
 }
 #teams .btn-primary{
     background-color: #fbd3c5;
@@ -98,6 +123,16 @@ body{
     padding: 10px ;
     padding-bottom: 40px;
 }
+.services h3{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    padding: 5px;
+    background-color: #fbd3c5;
+    width: 400px;
+    margin: auto;
+}
 
 .services h4{
     padding : 5px ;
@@ -107,7 +142,7 @@ body{
 }
 .services h4::before{
     content: "";
-    width: 400px;
+    width: 300px;
     height: 2px;
     background-color: #add1ef;
     display: block;
@@ -122,14 +157,122 @@ body{
     border-radius: 20px;
     font-size: 25;
     padding: 4px 44px;
+    margin-bottom: 20px;
 }
 
-#services .hair{
-    padding:  5px 30px;
+#services {
+    padding:  5px 10px;
     font-size: 20px;
     background-color: #fdf7f8;
-    height : 200px
+    font-size: 30px;
+}
+.hair{
+    color: #000000;
+    font-size: 20;
+}
+#services h5{
+    font-size: 23px;
+    font-weight: bold;
+    text-align: center;
+}
+#services .ser{
+    padding:  5px 10px;
+    height : 80px;
+    margin: auto;
+    text-align: center;
+    background-color: #e9ebf7;
+    padding-bottom: 3%;
+}
+#services .ser2{
+    padding:  5px 30px;
+    background-color: #e9ebf7;
+    height : 80px;
+    margin: auto;
+    text-align: center;
+}
+/*-----booking section-----*/
+#booking{
+    overflow: auto;
+}
+#booking h3{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    padding: 5px;
+    background-color: #fbd3c5;
+    width: 500px;
+    margin: auto;
+}
+.booking{
+    padding: 40px ;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    background-color: #fdf7f8;
     
+}
+#booking .submit-button{
+    background-color: #fbd3c5;
+    border-color: #fbd3c5;
+    color: #000000;
+    border-radius: 20px;
+    font-size: 25;
+    padding: 4px 44px;
+    margin-bottom: 20px;
+}
+#booking .text{
+    font-size: 25px;
+    padding: 5px;
+    font-weight: bold;
+
+}
+#booking .book{
+    padding: 5px;
+    font-size: 20px;
+}
+#booking .salon{
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    background-attachment: fixed;
+    height:65vh;
+}
+/*-----Confirm section-----*/
+#confirm{
+    padding-top: 40px;
+    overflow: auto;
+}
+
+#confirm .confirm-title{
+    padding: 40px ;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-color: #fdf7f8;
+}
+.confirm-title::before{
+    content: "";
+    width: 500px;
+    height: 2px;
+    background-color: #add1ef;
+    display: block;
+    margin-left:  auto;
+    margin-right: auto;
+    transform: translateY(63px);
+}
+#confirm .confirm-content{
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 10px;
+    background-color: #fdf7f8;
+}
+#confirm .submit-button{
+    background-color: #fbd3c5;
+    border-color: #fbd3c5;
+    color: #000000;
+    border-radius: 20px;
+    font-size: 25;
+    padding: 4px 20px;
+    margin: 20px;
 }
 /*-----about section-----*/
 #about-us{
