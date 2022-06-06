@@ -114,6 +114,11 @@ body{
     border-radius: 20px;
     padding: 4px 24px;
 }
+.teams img{
+    width: 70px;
+    height: 70px;
+    border-radius: 20px;
+}
 /*-----services section-----*/
 #services{
     padding: 40px 0;
